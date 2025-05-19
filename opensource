@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
 
 -- Key system
 
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
       Title = "Godz Hub | Key System",
       Subtitle = "Entre na nossa comunidade: gg/Z7kzY6YNKH",
