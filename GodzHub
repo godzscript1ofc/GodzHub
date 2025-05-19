@@ -1,2 +1,215 @@
-a
-a
+-- GodzHub Home/Start
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Godz Hub",
+   Icon = "menu",
+   LoadingTitle = "Godz Hub | Loading...",
+   LoadingSubtitle = "Entre na comunidade: discord.gg/Z7kzY6YNKH",
+   Theme = "Ocean",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Godz | AutoSave"
+   },
+
+   Discord = {
+      Enabled = true,
+      Invite = "Z7kzY6YNKH",
+      RememberJoins = true
+   },
+
+-- Key system
+
+   KeySystem = false,
+   KeySettings = {
+      Title = "Godz Hub | Key System",
+      Subtitle = "discord.gg/Z7kzY6YNKH",
+      Note = "GodzScripts",
+      FileName = "Key | Godz Hub",
+      SaveKey = true,
+      GrabKeyFromSite = true,
+      Key = "https://pastebin.com/raw/YvKEmSFn"
+   }
+})
+
+-- Tabs,Seções & butões:
+
+local UniversalTab = Window:CreateTab("Universal", 4483362458)
+
+UniversalTab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
+   end
+})
+
+UniversalTab:CreateButton({
+   Name = "[FE] Desmutar Chat de voz",
+   Callback = function()
+      game:GetService("VoiceChatService"):joinVoice()
+   end
+})
+
+UniversalTab:CreateButton({
+   Name = "Cobalt Spy",
+   Callback = function()
+      loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
+   end
+})
+
+local DeadRailsTab = Window:CreateTab("Dead Rails", 4483362458)
+
+DeadRailsTab:CreateButton({
+   Name = "NatHub",
+   Callback = function()
+      loadstring(game:HttpGet("https://get.nathub.xyz/loader"))()
+   end
+})
+
+DeadRailsTab:CreateButton({
+   Name = "Tora Is Me Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadRails", true))()
+   end
+})
+
+DeadRailsTab:CreateButton({
+   Name = "Speed X Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Dead%20Rails.lua"))()
+   end
+})
+
+local BlueLockTab = Window:CreateTab("Blue Lock: Rivals", 4483362458)
+
+BlueLockTab:CreateButton({
+   Name = "Sterling New",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Zayn31214/name/refs/heads/main/SterlingNew"))()
+   end
+})
+
+BlueLockTab:CreateButton({
+   Name = "Alchemy Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+   end
+})
+
+BlueLockTab:CreateButton({
+   Name = "Nicuse.xyz",
+   Callback = function()
+      loadstring(game:HttpGet("https://nicuse.xyz/MainHub.lua"))()
+   end
+})
+
+local AriseTab = Window:CreateTab("Arise Crossover", 4483362458)
+
+AriseTab:CreateButton({
+   Name = "TWVZ",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/arisecrossover.lua"))()
+   end
+})
+
+local GardenTab = Window:CreateTab("Grow A Garden", 4483362458)
+
+GardenTab:CreateButton({
+   Name = "No-lag Hub",
+   Callback = function()
+      loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+   end
+})
+
+GardenTab:CreateButton({
+   Name = "Ronix Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f66737512e1b9db3a3e41dd9f6a5aa91.lua"))()
+   end
+})
+
+local DoorsTab = Window:CreateTab("Doors", 4483362458)
+
+DoorsTab:CreateButton({
+   Name = "Mspanit V4 {NEW}",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+   end
+})
+
+DoorsTab:CreateButton({
+   Name = "Mspanit V3 {OLD}",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+   end
+})
+
+local SlapbTab = Window:CreateTab("Slap Battles", 4483362458)
+
+SlapbTab:CreateButton({
+   Name = "Forge Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+   end
+})
+
+SlapbTab:CreateButton({
+   Name = "Boxer Slap",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/niPKZsec/raw"))()
+   end
+})
+
+local JailbreakTab = Window:CreateTab("Jailbreak", 4483362458)
+
+JailbreakTab:CreateButton({
+   Name = "Project V5",
+   Callback = function()
+      loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
+   end
+})
+
+local BFTab = Window:CreateTab("Blox Fruits", 4483362458)
+
+BFTab:CreateButton({
+   Name = "W-Azure",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+   end
+})
+
+BFTab:CreateButton({
+   Name = "Quantum Onyx Hub | Keyless",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+   end
+})
+
+BFTab:CreateButton({
+   Name = "HoHo Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+   end
+})
+
+local MM2Tab = Window:CreateTab("MM2", 4483362458)
+
+MM2Tab:CreateButton({
+   Name = "XHub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+   end
+})
+
+MM2Tab:CreateButton({
+   Name = "Auto Farm",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub"))()
+   end
+})
