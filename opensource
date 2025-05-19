@@ -34,7 +34,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key | Godz Hub",
       SaveKey = true,
       GrabKeyFromSite = true,
-      Key = "https://loot-link.com/s?UjRmX7Xq"
+      Key = "G0dzk3YHU3"
    }
 })
 
