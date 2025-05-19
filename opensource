@@ -222,3 +222,12 @@ SagaTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/OhhMyGehlee/ga/refs/heads/main/ga"))()
    end
 })
+
+local TOFTab = Window:CreateTab("Tower Of Hell", 4483362458)
+
+TOFTab:CreateButton({
+   Name = "Darkrai Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
+   end
+})
