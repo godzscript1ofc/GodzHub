@@ -31,8 +31,6 @@ Rayfield:Notify({
    Image = 4483362458,
 })
 
--- Key system
-
    KeySystem = true,
    KeySettings = {
       Title = "Godz Hub | Key System",
