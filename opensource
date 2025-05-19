@@ -29,12 +29,12 @@ local Window = Rayfield:CreateWindow({
    KeySystem = false,
    KeySettings = {
       Title = "Godz Hub | Key System",
-      Subtitle = "discord.gg/Z7kzY6YNKH",
-      Note = "GodzScripts",
+      Subtitle = "Entre na nossa comunidade: gg/Z7kzY6YNKH",
+      Note = "Key site: https://loot-link.com/s?UjRmX7Xq",
       FileName = "Key | Godz Hub",
       SaveKey = true,
       GrabKeyFromSite = true,
-      Key = "https://pastebin.com/raw/YvKEmSFn"
+      Key = "https://loot-link.com/s?UjRmX7Xq"
    }
 })
 
