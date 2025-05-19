@@ -231,3 +231,12 @@ TOFTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
    end
 })
+
+local PLTab = Window:CreateTab("Prison Life", 4483362458)
+
+PLTab:CreateButton({
+   Name = "PrisonWare",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+   end
+})
