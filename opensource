@@ -24,13 +24,6 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true
    },
 
-Rayfield:Notify({
-   Title = "GodzHub | Notification",
-   Content = "✅ Script executado com sucesso!",
-   Duration = 3.0,
-   Image = 4483362458,
-})
-
    KeySystem = true,
    KeySettings = {
       Title = "Godz Hub | Key System",
@@ -41,6 +34,13 @@ Rayfield:Notify({
       GrabKeyFromSite = true,
       Key = "G0dzk3YHU3"
    }
+})
+
+Rayfield:Notify({
+   Title = "GodzHub | Notification",
+   Content = "✅ Script executado com sucesso!",
+   Duration = 3.0,
+   Image = 4483362458,
 })
 
 -- Tabs,Seções & butões:
