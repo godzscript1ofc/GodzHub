@@ -40,7 +40,7 @@ Rayfield:Notify({
    Title = "GodzHub | Notification",
    Content = "✅ Script executado com sucesso!",
    Duration = 3.0,
-   Image = 4483362458,
+   Image = 0,
 })
 
 -- Tabs,Seções & butões:
