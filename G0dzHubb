@@ -7,7 +7,7 @@ local Window = Rayfield:CreateWindow({
    Icon = "menu",
    LoadingTitle = "Godz Hub | Loading...",
    LoadingSubtitle = "",
-   Theme = "String",
+   ThemeIdentifier = "String",
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false,
