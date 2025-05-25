@@ -44,10 +44,11 @@ Rayfield:Notify({
 })
 
 -- Tabs,Seções & butões:
+local CreditTab = Window:CreateTab("Comunidade & Creditos", 4483362458)
+
+local Paragraph = CreditTab:CreateParagraph({Title = "Creditos:", Content = "Script hub feito por: @uma_pessoa29 & @godzscript"})
 
 local UniversalTab = Window:CreateTab("Universal", 4483362458)
-
-local Section = UniversalTab:CreateSection("Admin Commands")
 
 UniversalTab:CreateButton({
    Name = "Infinite Yield",
@@ -55,8 +56,6 @@ UniversalTab:CreateButton({
       loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
    end
 })
-
-local Section = Tab:CreateSection("FE scripts")
 
 UniversalTab:CreateButton({
    Name = "[FE] Desmutar Chat de voz",
