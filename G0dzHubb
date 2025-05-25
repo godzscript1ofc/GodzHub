@@ -48,7 +48,7 @@ local CreditTab = Window:CreateTab("Comunidade & Creditos", 4483362458)
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creditos:", Content = "Script hub feito por: @uma_pessoa29 & @godzscript"})
 
-local UniversalTab = Window:CreateTab("Universal", 4483362458)
+local UniversalTab = Window:CreateTab("Universal", "scroll-text")
 
 UniversalTab:CreateButton({
    Name = "Infinite Yield",
@@ -71,7 +71,7 @@ UniversalTab:CreateButton({
    end
 })
 
-local DeadRailsTab = Window:CreateTab("Dead Rails", 4483362458)
+local DeadRailsTab = Window:CreateTab("Dead Rails", "scroll-text")
 
 DeadRailsTab:CreateButton({
    Name = "NatHub",
@@ -94,7 +94,7 @@ DeadRailsTab:CreateButton({
    end
 })
 
-local BlueLockTab = Window:CreateTab("Blue Lock: Rivals", 4483362458)
+local BlueLockTab = Window:CreateTab("Blue Lock: Rivals", "scroll-text")
 
 BlueLockTab:CreateButton({
    Name = "Sterling New",
@@ -117,7 +117,7 @@ BlueLockTab:CreateButton({
    end
 })
 
-local AriseTab = Window:CreateTab("Arise Crossover", 4483362458)
+local AriseTab = Window:CreateTab("Arise Crossover", "scroll-text")
 
 AriseTab:CreateButton({
    Name = "TWVZ",
@@ -126,7 +126,7 @@ AriseTab:CreateButton({
    end
 })
 
-local GardenTab = Window:CreateTab("Grow A Garden", 4483362458)
+local GardenTab = Window:CreateTab("Grow A Garden", "scroll-text")
 
 GardenTab:CreateButton({
    Name = "No-lag Hub",
@@ -142,7 +142,7 @@ GardenTab:CreateButton({
    end
 })
 
-local DoorsTab = Window:CreateTab("Doors", 4483362458)
+local DoorsTab = Window:CreateTab("Doors", "scroll-text")
 
 DoorsTab:CreateButton({
    Name = "Mspanit V4 {NEW}",
@@ -158,7 +158,7 @@ DoorsTab:CreateButton({
    end
 })
 
-local SlapbTab = Window:CreateTab("Slap Battles", 4483362458)
+local SlapbTab = Window:CreateTab("Slap Battles", "scroll-text")
 
 SlapbTab:CreateButton({
    Name = "Forge Hub",
@@ -174,7 +174,7 @@ SlapbTab:CreateButton({
    end
 })
 
-local JailbreakTab = Window:CreateTab("Jailbreak", 4483362458)
+local JailbreakTab = Window:CreateTab("Jailbreak", "scroll-text")
 
 JailbreakTab:CreateButton({
    Name = "Project V5",
@@ -183,7 +183,7 @@ JailbreakTab:CreateButton({
    end
 })
 
-local BFTab = Window:CreateTab("Blox Fruits", 4483362458)
+local BFTab = Window:CreateTab("Blox Fruits", "scroll-text")
 
 BFTab:CreateButton({
    Name = "W-Azure",
@@ -206,7 +206,7 @@ BFTab:CreateButton({
    end
 })
 
-local MM2Tab = Window:CreateTab("MM2", 4483362458)
+local MM2Tab = Window:CreateTab("MM2", "scroll-text")
 
 MM2Tab:CreateButton({
    Name = "XHub",
@@ -222,7 +222,7 @@ MM2Tab:CreateButton({
    end
 })
 
-local SagaTab = Window:CreateTab("Anime Saga", 4483362458)
+local SagaTab = Window:CreateTab("Anime Saga", "scroll-text")
 
 SagaTab:CreateButton({
    Name = "NS | Hub",
@@ -231,7 +231,7 @@ SagaTab:CreateButton({
    end
 })
 
-local TOFTab = Window:CreateTab("Tower Of Hell", 4483362458)
+local TOFTab = Window:CreateTab("Tower Of Hell", "scroll-text")
 
 TOFTab:CreateButton({
    Name = "Darkrai Hub",
@@ -240,7 +240,7 @@ TOFTab:CreateButton({
    end
 })
 
-local PLTab = Window:CreateTab("Prison Life", 4483362458)
+local PLTab = Window:CreateTab("Prison Life", "scroll-text")
 
 PLTab:CreateButton({
    Name = "PrisonWare",
@@ -249,7 +249,7 @@ PLTab:CreateButton({
    end
 })
 
-local NDTab = Window:CreateTab("Natural Disaster", 2872615658)
+local NDTab = Window:CreateTab("Natural Disaster", "scroll-text")
 
 
 
