@@ -33,8 +33,16 @@ local Window = Rayfield:CreateWindow({
       SaveKey = true,
       GrabKeyFromSite = true,
       Key = "https://pastebin.com/raw/BF5fkdXV"
-   }
-})
+      Actions = {
+                [1] = {
+                    Text = 'Clique aqui para copiar o link!',
+                    OnPress = function()
+
+                    end,
+                }
+            },
+        }
+    })
 
 Rayfield:Notify({
    Title = "GodzHub | Notification",
