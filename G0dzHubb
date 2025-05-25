@@ -252,6 +252,12 @@ PLTab:CreateButton({
 
 local NDTab = Window:CreateTab("Natural Disaster", "scroll-text")
 
+NDTab:CreateButton({
+   Name = "🌀Buraco Negro",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-black-hole-18879"))()
+   end
+})
 
 
 
