@@ -249,7 +249,7 @@ PLTab:CreateButton({
    end
 })
 
-local NDTab = Window:CreateTab("Natural Disaster", 4483362458)
+local NDTab = Window:CreateTab("Natural Disaster", 2872615658)
 
 
 
