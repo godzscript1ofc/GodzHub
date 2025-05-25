@@ -38,9 +38,9 @@ local Window = Rayfield:CreateWindow({
 
 Rayfield:Notify({
    Title = "GodzHub | Notification",
-   Content = "✅ Script executado com sucesso!",
+   Content = "Script executado e key valida!",
    Duration = 3.0,
-   Image = 0,
+   Image = 3944680122,
 })
 
 -- Tabs,Seções & butões:
