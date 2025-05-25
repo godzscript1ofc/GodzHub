@@ -33,7 +33,9 @@ local Window = Rayfield:CreateWindow({
       SaveKey = true,
       GrabKeyFromSite = true,
       Key = "https://pastebin.com/raw/BF5fkdXV"
-    
+       }
+})
+
 Rayfield:Notify({
    Title = "GodzHub | Notification",
    Content = "Script executado e key valida!",
