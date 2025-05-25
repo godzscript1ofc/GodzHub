@@ -48,7 +48,7 @@ local CreditTab = Window:CreateTab("Comunidade & Creditos", 4483362458)
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creditos:", Content = "Script hub feito por: @uma_pessoa29 & @godzscript"})
 
-local UniversalTab = Window:CreateTab("Universal", 4483362458)
+local UniversalTab = Window:CreateTab("Universal", scroll)
 
 UniversalTab:CreateButton({
    Name = "Infinite Yield",
