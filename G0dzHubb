@@ -44,9 +44,10 @@ Rayfield:Notify({
 })
 
 -- Tabs,Seções & butões:
-local CreditTab = Window:CreateTab("Comunidade & Creditos", "info")
+local CreditTab = Window:CreateTab("Informação", "info")
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creditos:", Content = "Script hub feito por: @uma_pessoa29 & @godzscript"})
+local Paragraph = CreditTab:CreateParagraph({Title = "Entre na nossa comunidade do Discord! link:", Content = "discord.gg/Z7kzY6YNKH"})
 
 local UniversalTab = Window:CreateTab("Universal", "scroll-text")
 
