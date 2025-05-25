@@ -251,7 +251,12 @@ PLTab:CreateButton({
 })
 
 local NDTab = Window:CreateTab("Natural Disaster", "scroll-text")
-
+local ColorPicker = NDTab:CreateColorPicker({
+    Name = "Color Picker",
+    Color = Color3.fromRGB(255,255,255),
+    Flag = "ColorPicker1",
+    end
+})
 
 
 
