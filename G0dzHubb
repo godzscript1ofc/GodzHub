@@ -44,7 +44,7 @@ Rayfield:Notify({
 })
 
 -- Tabs,Seções & butões:
-local CreditTab = Window:CreateTab("Comunidade & Creditos", 4483362458)
+local CreditTab = Window:CreateTab("Comunidade & Creditos", "info")
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creditos:", Content = "Script hub feito por: @uma_pessoa29 & @godzscript"})
 
