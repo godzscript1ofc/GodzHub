@@ -40,7 +40,7 @@ Rayfield:Notify({
    Title = "GodzHub | Notification",
    Content = "Script executado e key valida!",
    Duration = 3.0,
-   Image = check,
+   Image = "check",
 })
 
 -- Tabs,Seções & butões:
