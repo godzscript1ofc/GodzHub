@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
       Key = "https://pastebin.com/raw/BF5fkdXV"
       Actions = {
                 [1] = {
-                    Text = 'Clique aqui para copiar o link!',
+                    Text = "Clique aqui para copiar o link!",
                     OnPress = function()
 
                     end,
