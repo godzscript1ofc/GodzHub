@@ -32,7 +32,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key | Godz Hub",
       SaveKey = true,
       GrabKeyFromSite = true,
-      Key = "raw.githubusercontent.com/godzscript1ofc/GodzHub/refs/heads/main/Key"
+      Key = "pastebin.com/raw/BF5fkdXV"
    }
 })
 
