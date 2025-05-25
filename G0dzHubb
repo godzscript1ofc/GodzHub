@@ -47,12 +47,16 @@ Rayfield:Notify({
 
 local UniversalTab = Window:CreateTab("Universal", 4483362458)
 
+local Section = UniversalTab:CreateSection("Admin Commands")
+
 UniversalTab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
       loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
    end
 })
+
+local Section = Tab:CreateSection("FE scripts")
 
 UniversalTab:CreateButton({
    Name = "[FE] Desmutar Chat de voz",
@@ -245,6 +249,8 @@ PLTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
    end
 })
+
+local NDTab = Window:CreateTab("Natural Disaster", 4483362458)
 
 
 
