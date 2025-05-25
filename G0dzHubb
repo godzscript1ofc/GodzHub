@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
    Name = "Godz Hub",
    Icon = "menu",
    LoadingTitle = "Godz Hub | Loading...",
-   LoadingSubtitle = "Entre na comunidade: discord.gg/Z7kzY6YNKH",
+   LoadingSubtitle = "",
    Theme = "Ocean",
 
    DisableRayfieldPrompts = false,
