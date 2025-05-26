@@ -10,3 +10,5 @@
 📗**Murder Mystery 2**
 📗**Blox Fruits**
 📗**Anime Saga**
+📗**Natural Disaster**
+📗**Brookhaven**
