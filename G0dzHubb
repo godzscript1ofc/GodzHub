@@ -44,10 +44,11 @@ Rayfield:Notify({
 })
 
 -- Tabs,Seções & butões:
-local CreditTab = Window:CreateTab("Informação", "info")
+local CreditTab = Window:CreateTab("Infos", "info")
 
 local Paragraph = CreditTab:CreateParagraph({Title = "Creditos:", Content = "Script hub feito por: @uma_pessoa29 & @godzscript"})
 local Paragraph = CreditTab:CreateParagraph({Title = "Entre na nossa comunidade do Discord! link:", Content = "discord.gg/Z7kzY6YNKH"})
+local Paragraph = CreditTab:CreateParagraph({Title = "Updates recentes", Content = "Mais scripts de Grow A Garden e Dead Rails (Version 0.5 BETA)"})
 
 local UniversalTab = Window:CreateTab("Universal", "scroll-text")
 
@@ -61,7 +62,12 @@ UniversalTab:CreateButton({
 UniversalTab:CreateButton({
    Name = "[FE] Desmutar Chat de voz",
    Callback = function()
-      game:GetService("VoiceChatService"):joinVoice()
+      if game:GetService("VoiceChatService"):IsVoiceEnabledForUserIdAsync(game.Players.LocalPlayer.UserId) then
+      game:GetService("VoiceChatService"):JoinVoice()
+      else
+      Rayfield:Notify({Title = "Erro", Content = "Você não tem chat de voz ativo!", Duration = 4})
+end
+
    end
 })
 
