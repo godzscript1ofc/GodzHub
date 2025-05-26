@@ -272,6 +272,7 @@ NDTab:CreateButton({
    end
 })
 
+local BHTab = Window:CreateTab("BrookHaven", "scroll-text")
 
 
 
