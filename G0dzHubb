@@ -265,14 +265,6 @@ NDTab:CreateButton({
    end
 })
 
-NDTab:CreateButton({
-   Name = "SixHub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/Six-Hub/NaturalDisaster"))()
-   end,
-})
-
-
 
 
 
