@@ -265,6 +265,12 @@ NDTab:CreateButton({
    end
 })
 
+NDTab:CreateButton({
+   Name = "DOGLOG Hub",
+   Callback = function()
+      loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourRealjohn/Natural-Disaster/refs/heads/main/Natural%20disasterV4"),true))()
+   end
+})
 
 
 
