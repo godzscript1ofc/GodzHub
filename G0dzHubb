@@ -273,7 +273,12 @@ NDTab:CreateButton({
 })
 
 local BHTab = Window:CreateTab("BrookHaven", "scroll-text")
-
+BHTab:CreateButton({
+   Name = "XXMZ Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/XScommunity/XXMZ/refs/heads/main/Brookhaven"))()
+   end
+})
 
 
 
