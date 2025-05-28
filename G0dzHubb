@@ -1,4 +1,4 @@
--- GodzHub Home/Start
+ui-- GodzHub Home/Start
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Godz Hub | Key System",
       Subtitle = "Dica: recomendo entrar no discord e ir em "keyhub-comando"",
-      Note = "Key site: https://lootdest.org/s?2bgZE63u",
+      Note = "Key site: https://lootdest.org/s?2bgZE63u,",
       FileName = "Key | Godz Hub",
       SaveKey = true,
       GrabKeyFromSite = true,
