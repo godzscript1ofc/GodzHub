@@ -149,6 +149,13 @@ GardenTab:CreateButton({
    end
 })
 
+GardenTab:CreateButton({
+   Name = "Lumin Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua",true))()
+   end
+})
+
 local DoorsTab = Window:CreateTab("Doors", "scroll-text")
 
 DoorsTab:CreateButton({
